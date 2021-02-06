@@ -85,7 +85,7 @@ def checkDraw():
     return True
 
 def playerMove():
-    position = int(input("Enter the possition for X:  "))
+    position = int(input("Enter the possition for O:  "))
     insertLetter(player,position)
     return
     
